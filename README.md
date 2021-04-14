@@ -147,13 +147,13 @@ The test model is trained on SPA-Data.
 
 ## Rain Generation Experiments
 
-<p align="center"><img src="./figs/interpolation_results.png" width="300">&nbsp;&nbsp;<img src="./figs/disentanglement_results.png" width="300">&nbsp;&nbsp;<img src="./figs/generated_images.png" width="300"></p> 
+<p align="center"><img src="./figs/interpolation_results.png" width="330">&nbsp;&nbsp;<img src="./figs/disentanglement_results.png" width="333">&nbsp;&nbsp;<img src="./figs/generated_images.png" width="333"></p> 
 
-<p align="center"><img src="./figs/direction_group1.gif" width="150">&nbsp;&nbsp;<img src="./figs/direction_group2.gif" width="150">&nbsp;&nbsp;<img src="./figs/thickness_group1.gif" width="150">&nbsp;&nbsp;<img src="./figs/thickness_group2.gif" width="150">&nbsp;&nbsp;<img src="./figs/diversity_group1.gif" width="150">&nbsp;&nbsp;<img src="./figs/diversity_group2.gif" width="150"></p> 
+<p align="center"><img src="./figs/direction_group1.gif" width="166">&nbsp;&nbsp;<img src="./figs/direction_group2.gif" width="166">&nbsp;&nbsp;<img src="./figs/thickness_group1.gif" width="166">&nbsp;&nbsp;<img src="./figs/thickness_group2.gif" width="166">&nbsp;&nbsp;<img src="./figs/diversity_group1.gif" width="166">&nbsp;&nbsp;<img src="./figs/diversity_group2.gif" width="166"></p> 
 
 
 ## Rain Removal Experiments
-<div  align="center"><img src="./figs/augmented results.png" height="90%" width="90%" alt=""/></div>
+<div  align="center"><img src="./figs/augmented results.png" height="100%" width="100%" alt=""/></div>
 
 
 ## Derained Results of Our VRGNet (i.e., PReNet-)
