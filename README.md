@@ -147,15 +147,15 @@ The test model is trained on SPA-Data.
 
 ## Rain Generation Experiments
 
-<p align="center"><img src="./figs/interpolation_results.png" width="100">&nbsp;&nbsp;<img src="./figs/disentanglement_results.png" width="100">&nbsp;&nbsp;<img src="./figs/generated_images.png" width="100"></p> 
+<p align="center"><img src="./figs/interpolation_results.png" width="400">&nbsp;&nbsp;<img src="./figs/disentanglement_results.png" width="400">&nbsp;&nbsp;<img src="./figs/generated_images.png" width="400"></p> 
 
 
 ## Rain Removal Experiments
-<div  align="center"><img src="./figs/augmented results.png" height="70%" width="70%" alt=""/></div>
+<div  align="center"><img src="./figs/augmented results.png" height="90%" width="90%" alt=""/></div>
 
 
 ## Derained Results of Our VRGNet (i.e., PReNet-)
-<div  align="center"><img src="./figs/Joint test_psnr+ssim.png" height="40%" width="40%" alt=""/></div>
+<img src="./figs/Joint test_psnr+ssim.png" height="40%" width="40%" alt=""/>
 
 
 All PSNR and SSIM results are computed with this [Matlab code](https://github.com/hongwang01/RCDNet/tree/master/Performance_evaluation).
