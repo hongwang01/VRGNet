@@ -8,8 +8,6 @@
 ## Abstract
 For the single image rain removal (SIRR) task, the performance of deep learning (DL)-based methods is mainly affected by the designed deraining models and training datasets. Most of current state-of-the-art focus on constructing powerful deep models to obtain better deraining results. In this paper, to further improve the deraining performance, we novelly attempt to handle the SIRR task from the perspective of training datasets by exploring a more efficient way to synthesize rainy images. Specifically, we build a full Bayesian generative model for rainy image where the rain layer is parameterized as a generator with the input as some latent variables representing the physical structural rain factors, e.g., direction, scale, and thickness. To solve this model, we employ the variational inference framework to approximate the expected statistical distribution of rainy image in a data-driven manner. With the learned generator, we can automatically and sufficiently generate diverse and non-repetitive training pairs so as to efficiently enrich and augment the existing benchmark datasets. User study qualitatively and quantitatively evaluates the realism of generated rainy images. Comprehensive experiments substantiate that the proposed model can faithfully extract the complex rain distribution that not only helps significantly improve the deraining performance of current deep single image derainers, but also largely loosens the requirement of large training sample pre-collection for the SIRR task.
 
-<div  align="center"><img src="./figs/interpolation_results.png" height="40%" width="40%" alt=""/></div>
-
 ## Dependicies
 
 pip install -r requirements.txt
@@ -148,16 +146,18 @@ The test model is trained on SPA-Data.
 
 ## Rain Generation Experiments
 
-<div  align="center"><img src="./figs/disentanglement_results.png" width="40%" alt=""/></div>
-<div  align="center"><img src="./figs/generated_images.png" width="40%" alt=""/></div>
-
+<figure class="third">
+<div  align="center"><img src="./figs/interpolation_results.png" height="30%" width="30%" alt=""/></div>
+<div  align="center"><img src="./figs/disentanglement_results.png" height="30%" width="30%" alt=""/></div>
+<div  align="center"><img src="./figs/generated_images.png" height="30%" width="30%" alt=""/></div>
+</figure>
 
 ## Rain Removal Experiments
-<div  align="center"><img src="./figs/augmented results.png" width="70%" alt=""/></div>
+<div  align="center"><img src="./figs/augmented results.png" height="70%" width="70%" alt=""/></div>
 
 
 ## Derained Results of Our VRGNet (i.e., PReNet-)
-<div  align="center"><img src="./figs/Joint test_psnr+ssim.png" width="40%" alt=""/></div>
+<div  align="center"><img src="./figs/Joint test_psnr+ssim.png" height="40%" width="40%" alt=""/></div>
 
 
 All PSNR and SSIM results are computed with this [Matlab code](https://github.com/hongwang01/RCDNet/tree/master/Performance_evaluation).
