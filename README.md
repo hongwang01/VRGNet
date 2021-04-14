@@ -1,6 +1,6 @@
 # From Rain Generation to Rain Removal (CVPR2021)
  
-[Hong Wang](https://hongwang01.github.io/), Zongsheng Yue, Qi Xie, Qian Zhao, [Yefeng Zheng](https://sites.google.com/site/yefengzheng), and [Deyu Meng](http://gr.xjtu.edu.cn/web/dymeng)  
+[Hong Wang](https://hongwang01.github.io/), [Zongsheng Yue](https://github.com/zsyOAOA), Qi Xie, Qian Zhao, [Yefeng Zheng](https://sites.google.com/site/yefengzheng), and [Deyu Meng](http://gr.xjtu.edu.cn/web/dymeng)  
 
 [[PDF&&Supplementary Material]](https://arxiv.org/pdf/2008.03580.pdf)
 
