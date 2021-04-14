@@ -13,6 +13,7 @@ For the single image rain removal (SIRR) task, the performance of deep learning 
 pip install -r requirements.txt
 
 ## Folder Directory 
+```
 .
 |-- for_spa                                   : Experiments on real SPA-Data
 |   |-- data                                  : SPA-Data: train + test
@@ -47,7 +48,7 @@ pip install -r requirements.txt
 |   |-- syn100hmodels                         : Joint pretrained model on rain100H
 |   |-- syn100lmodels                         : Joint pretrained model on rain100L
 |   |-- syn1400models                         : Joint pretrained model on rain1400
-
+```
 ## Benchmark Dataset
 Synthetic datasets: Rain100L, Rain100H, Rain1400
 
