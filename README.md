@@ -147,9 +147,9 @@ The test model is trained on SPA-Data.
 
 ## Rain Generation Experiments
 
-<p align="center"><img src="./figs/interpolation_results.png" width="330">&nbsp;&nbsp;<img src="./figs/disentanglement_results.png" width="333">&nbsp;&nbsp;<img src="./figs/generated_images.png" width="333"></p> 
+<p align="center"><img src="./figs/interpolation_results.png" width="302">&nbsp;&nbsp;<img src="./figs/disentanglement_results.png" width="302">&nbsp;&nbsp;<img src="./figs/generated_images.png" width="302"></p> 
 
-<p align="center"><img src="./figs/direction_group1.gif" width="166">&nbsp;&nbsp;<img src="./figs/direction_group2.gif" width="166">&nbsp;&nbsp;<img src="./figs/thickness_group1.gif" width="166">&nbsp;&nbsp;<img src="./figs/thickness_group2.gif" width="166">&nbsp;&nbsp;<img src="./figs/diversity_group1.gif" width="166">&nbsp;&nbsp;<img src="./figs/diversity_group2.gif" width="166"></p> 
+<p align="center"><img src="./figs/direction_group1.gif" width="150">&nbsp;&nbsp;<img src="./figs/direction_group2.gif" width="150">&nbsp;&nbsp;<img src="./figs/thickness_group1.gif" width="150">&nbsp;&nbsp;<img src="./figs/thickness_group2.gif" width="150">&nbsp;&nbsp;<img src="./figs/diversity_group1.gif" width="150">&nbsp;&nbsp;<img src="./figs/diversity_group2.gif" width="150"></p> 
 
 
 ## Rain Removal Experiments
