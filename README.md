@@ -147,9 +147,9 @@ The test model is trained on SPA-Data.
 
 ## Rain Generation Experiments
 
-<figure class="third">
-<img src="./figs/interpolation_results.png" height="30%" width="30%" alt=""/><img src="./figs/disentanglement_results.png" height="30%" width="30%" alt=""/><img src="./figs/generated_images.png" height="30%" width="30%" alt=""/>
-</figure>
+<center class="half">
+    <img src="./figs/interpolation_results.png" width="30%" alt=""/><img src="./figs/disentanglement_results.png" width="30%" alt=""/><img src="./figs/generated_images.png" width="30%" alt=""/>
+</center>
 
 ## Rain Removal Experiments
 <div  align="center"><img src="./figs/augmented results.png" height="70%" width="70%" alt=""/></div>
