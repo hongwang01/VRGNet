@@ -56,7 +56,7 @@ Real datasets: SPA-Data, Internet-Data（only for testing）
  
 Detailed descriptions refer to [the Survey, SCIENCE CHINA Information Sciences2021](https://github.com/hongwang01/Video-and-Single-Image-Deraining)
 
-Please refer to [RCDNet, CVPR2021](https://github.com/hongwang01/RCDNet) for downloading these datasets and put them into the corresponding folders according to the dictionary above. 
+Please refer to [RCDNet, CVPR2020](https://github.com/hongwang01/RCDNet) for downloading these datasets and put them into the corresponding folders according to the dictionary above. 
 
 ## For Synthetic Dataset (*taking Rain100L as an example*)
 ### Training
