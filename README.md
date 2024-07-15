@@ -145,7 +145,10 @@ The test model is trained on SPA-Data.
 
 3) Please note that in our default settings, the generated patchsize is 64x64. In the released code, we also provide the model revision (i.e., RNet, Generator, and discriminator) for generating the size as 256x256. If other sizes are needed, you can correspondingly revise the network layer and then re-train the joint VRGNet.
 
-4) Given your own rain-free image,  to generate the rainy image via our rain generator, please refer to https://github.com/hongwang01/VRGNet/blob/834c2c64be363797fe3741f4f8e8d17657f9b614/for_syn/train_syn_aug.py#L69 and https://github.com/hongwang01/VRGNet/blob/834c2c64be363797fe3741f4f8e8d17657f9b614/for_syn/train_syn_aug.py#L90. You need to firstly load the pretained "netED" and specify the gt (i.e., your own rain-free image). Please note that the default training setting as well as the released pretained model for VRGNet is based on 64*64.  For the generation of a higher-resolution rain layer,  it is needed to revise the code and jointly train VRGNet from scratch. 
+4) **Given your own rain-free image,  to generate the rainy image via our rain generator, please refer to https://github.com/hongwang01/VRGNet/blob/834c2c64be363797fe3741f4f8e8d17657f9b614/for_syn/train_syn_aug.py#L69 and https://github.com/hongwang01/VRGNet/blob/834c2c64be363797fe3741f4f8e8d17657f9b614/for_syn/train_syn_aug.py#L90. You need to firstly load the pretained "netED" and specify the gt (i.e., your own rain-free image). Please note that the default training setting as well as the released pretained model for VRGNet is based on 64*64.  For the generation of a higher-resolution rain layer,  it is needed to revise the code and jointly train VRGNet from scratch.** 
+
+5) **On the basis of VRGNet, we took a step forward and proposed a stronger rain generator, TRGNet,  which can explicitly control the property of rain generation as you want, such as, scale, direction, and thickness, please refer to [TRGNet](https://github.com/pzq-xjtu/TRG-Net)**
+
 
 ## Rain Generation Experiments
 
